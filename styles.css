@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+body{
+    background-color: azure;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.location{
+    margin: 2rem 0;
+    display: flex;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+input{
+    margin: 1rem 0;
+    height: 2rem;
+    width: 100%;
+}
+
+.card{
+
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 0.25rem 0.5rem 0.0 rgba(0,0,0,0.15);
+    overflow: hidden;
+    background-color: gainsboro;
+}
+
+.dnone{
+    display: none;
+}
+
+.data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem 0;
+    
+}
+
+.city{
+    margin: 1rem 0;
+}
+
+.weather{
+    margin: 1rem 0;
+}
+
+.temp{
+    margin: 1rem 0;
+}
+
+.time{
+    max-height: 300px;
+    width: 350px;
+}
